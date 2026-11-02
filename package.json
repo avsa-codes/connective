@@ -1,0 +1,15 @@
+{
+  "name": "connective",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connective platform monorepo",
+  "workspaces": [
+    "apps/api",
+    "apps/mobile",
+    "apps/websites",
+    "packages/contracts"
+  ],
+  "scripts": {
+    "check:git": "git status"
+  }
+}
