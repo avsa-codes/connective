@@ -1,0 +1,29 @@
+{
+  "name": "@connective/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Connective backend API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"No tests configured yet\""
+  },
+  "dependencies": {
+    "@better-auth/prisma-adapter": "^1.7.15",
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "better-auth": "^1.7.15",
+    "dotenv": "^18.0.9",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/pg": "^8.23.1",
+    "prisma": "^7.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.0.0"
+  }
+}
