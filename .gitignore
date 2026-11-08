@@ -27,3 +27,6 @@ coverage/
 
 # Temporary files
 *.tmp
+
+# Android signing credentials
+apps/mobile/credentials/
